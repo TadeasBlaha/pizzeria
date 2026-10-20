@@ -1,0 +1,130 @@
+
+body {
+    background-color: #f5f1eb;
+    font-family: Arial, sans-serif;
+    color: #333333;
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    background-color: #806044;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+nav {
+    background-color: #e4d6c5;
+    padding: 15px;
+    text-align: center;
+}
+
+nav a {
+    margin: 10px;
+    color: #333333;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: #a34d2b;
+}
+
+h2, h3, p {
+    margin-left: 30px;
+    margin-right: 30px;
+    max-width: 900px;
+}
+
+h3 {
+    margin-top: 35px;
+}
+
+footer {
+    background-color: #806044;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: auto;
+}
+
+footer p {
+    margin: 0;
+    max-width: none;
+}
+
+img {
+    width: 500px;
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 20px auto;
+}
+
+.jidlo {
+    width: 80%;
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 15px;
+    background-color: #e4d6c5;
+    box-sizing: border-box;
+}
+
+.jidlo h4 {
+    margin: 0 0 10px 0;
+}
+
+.jidlo p {
+    margin: 5px 0;
+}
+
+@media (max-width: 850px) {
+    .jidlo {
+        margin: 20px 30px;
+    }
+}
+
+form {
+    max-width: 500px;
+    margin: 20px 30px;
+    padding: 20px;
+    background-color: #e4d6c5;
+}
+
+form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+form input,
+form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #806044;
+    box-sizing: border-box;
+}
+
+form textarea {
+    height: 100px;
+}
+
+form button {
+    background-color: #806044;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #a34d2b;
+}
+
+nav a.aktivni {
+    color: #a34d2b;
+    font-weight: bold;
+}
