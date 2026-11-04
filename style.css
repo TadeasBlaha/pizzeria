@@ -103,16 +103,14 @@ footer {
 }
 
 @media (max-width: 800px) {
-    body {
-        overflow-x: hidden;
+    main {
+        width: 92%;
+        margin: 10px auto;
+        padding: 10px;
     }
 
-    main img {
-        max-width: 100%;
-        height: auto;
-    }
-
-    main p, main h2, main h3 {
-        word-break: break-word;
+    nav a {
+        display: inline-block;
+        margin: 5px 8px;
     }
 }
