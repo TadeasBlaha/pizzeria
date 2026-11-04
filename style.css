@@ -103,22 +103,16 @@ footer {
 }
 
 @media (max-width: 800px) {
-    main {
-        width: auto;
-        margin: 10px;
+    body {
+        overflow-x: hidden;
     }
 
-    nav a {
-        display: block;
-        padding: 10px;
-        border-bottom: 1px solid #333333;
+    main img {
+        max-width: 100%;
+        height: auto;
     }
 
-    header h1 {
-        font-size: 28px;
-    }
-
-    header p {
-        font-size: 15px;
+    main p, main h2, main h3 {
+        word-break: break-word;
     }
 }
